@@ -1,0 +1,9 @@
+#nav {
+  background-color: #b0d9ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#nav.active {
+  background-color: #0286ff;
+  color: white;
+}

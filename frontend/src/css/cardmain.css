@@ -1,0 +1,25 @@
+.cardcss {
+  background: #d6ebff;
+  border: none;
+}
+
+.cardcss .btn {
+  color: white;
+  background-color: #0286ff;
+}
+.cardcss:hover {
+  background-color: #0286ff;
+}
+
+.cardcss:hover .card-title {
+  color: white;
+}
+
+.cardcss:hover .card-subtitle {
+  color: white;
+}
+
+.cardcss:hover .btn {
+  color: black;
+  background-color: white;
+}
