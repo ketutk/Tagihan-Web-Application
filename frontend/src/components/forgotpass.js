@@ -17,7 +17,7 @@ const ForgotPass = () => {
       setError("Email wajib diisi");
     } else {
       axios
-        .put("http://localhost:3001/forgotpassword", { email: email })
+        .put("https://outrageous-bat-headscarf.cyclic.app/forgotpassword", { email: email })
         .then((res) => {
           setEmail("");
           setAlert("Silahkan cek email anda");

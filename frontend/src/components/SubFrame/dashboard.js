@@ -21,7 +21,7 @@ const Dashboard = ({ navChange }) => {
     }
     setIsLoading(true);
     axios
-      .get("http://localhost:3001/dashboard", {
+      .get("https://outrageous-bat-headscarf.cyclic.app/dashboard", {
         headers: {
           Authorization: token,
         },

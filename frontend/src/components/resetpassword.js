@@ -36,7 +36,7 @@ const ResetPassword = () => {
       password: password,
       token: token,
     };
-    axios.put("http://localhost:3001/resetpassword", data).then((res) => {
+    axios.put("https://outrageous-bat-headscarf.cyclic.app/resetpassword", data).then((res) => {
       if (res) {
         setPassword("");
         setConfirmPassword("");

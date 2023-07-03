@@ -113,7 +113,7 @@ const Modalshow = ({ nama, tanggal, tagihan, dokter, idTagihan, show, handleClos
     };
 
     axios
-      .post("http://localhost:3001/update", newData, {
+      .post("https://outrageous-bat-headscarf.cyclic.app/update", newData, {
         headers: {
           Authorization: token,
         },

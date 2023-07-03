@@ -31,7 +31,7 @@ const Listbook = ({ navChange }) => {
 
   function getData() {
     axios
-      .get("http://localhost:3001/listbook", {
+      .get("https://outrageous-bat-headscarf.cyclic.app/listbook", {
         headers: {
           Authorization: token,
         },
@@ -72,7 +72,7 @@ const Listbook = ({ navChange }) => {
       }
       axios
         .post(
-          "http://localhost:3001/deletebook",
+          "https://outrageous-bat-headscarf.cyclic.app/deletebook",
           { _id: e.target.value },
           {
             headers: {

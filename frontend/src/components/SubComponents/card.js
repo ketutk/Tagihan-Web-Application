@@ -27,7 +27,7 @@ const Card = ({ deskripsi, id, token, hapus, setChange }) => {
   const change = () => {
     axios
       .post(
-        "http://localhost:3001/editbook",
+        "https://outrageous-bat-headscarf.cyclic.app/editbook",
         {
           _id: id,
           newName: newName,

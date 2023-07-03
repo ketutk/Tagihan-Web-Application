@@ -35,7 +35,7 @@ const Newbook = ({ navChange }) => {
     }
 
     axios
-      .get("http://localhost:3001/user", {
+      .get("https://outrageous-bat-headscarf.cyclic.app/user", {
         headers: {
           Authorization: token,
         },
@@ -161,7 +161,7 @@ const Newbook = ({ navChange }) => {
       }
 
       axios
-        .post("http://localhost:3001/newbook", data, {
+        .post("https://outrageous-bat-headscarf.cyclic.app/newbook", data, {
           headers: {
             Authorization: token,
           },

@@ -29,7 +29,7 @@ const Tagihan = ({ navChange }) => {
   }
 
   axios
-    .get(`http://localhost:3001/tagihan/${bookid}`, {
+    .get(`https://outrageous-bat-headscarf.cyclic.app/tagihan/${bookid}`, {
       headers: {
         Authorization: token,
       },
@@ -56,7 +56,7 @@ const Tagihan = ({ navChange }) => {
         idTagihan: e.target.value,
       };
       axios
-        .post("http://localhost:3001/hapus", data, {
+        .post("https://outrageous-bat-headscarf.cyclic.app/hapus", data, {
           headers: {
             Authorization: token,
           },
@@ -148,7 +148,7 @@ const Tagihan = ({ navChange }) => {
       };
 
       axios
-        .post("http://localhost:3001/tambah", data, {
+        .post("https://outrageous-bat-headscarf.cyclic.app/tambah", data, {
           headers: {
             Authorization: token,
           },

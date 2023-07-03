@@ -29,7 +29,7 @@ const Login = () => {
       password: password,
     };
     axios
-      .post("http://localhost:3001/login", data)
+      .post("https://outrageous-bat-headscarf.cyclic.app/login", data)
       .then((result) => {
         if (result) {
           localStorage.setItem("token", result.data.token);

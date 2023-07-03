@@ -33,7 +33,7 @@ const Daftar = () => {
       password: password,
     };
     axios
-      .post("http://localhost:3001/daftar", data)
+      .post("https://outrageous-bat-headscarf.cyclic.app/daftar", data)
       .then((result) => {
         if (result) {
           if (result.data) {
